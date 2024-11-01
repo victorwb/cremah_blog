@@ -1,4 +1,4 @@
-@extends('layouts.base', ['title' => 'Around | Contacts v.1'])
+@extends('layouts.base', ['title' => 'Blog | Contacts'])
 
 @section('content')
 
@@ -13,7 +13,7 @@
             <nav aria-label="breadcrumb">
                 <ol class="pt-lg-3 pb-lg-4 pb-2 breadcrumb">
                     <li class="breadcrumb-item"><a href="/">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contacts v.1</li>
+                    <li class="breadcrumb-item active" aria-current="page">Contacts</li>
                 </ol>
             </nav>
 
@@ -29,7 +29,7 @@
                     <div class="card border-0 h-100">
                         <div class="card-body">
                             <h4 class="card-title mb-4">Address</h4>
-                            <p class="fs-lg fw-medium pb-3 mb-3">514 Magnolia St. Orlando, FL 32806</p>
+                            <p class="fs-lg fw-medium pb-3 mb-3">Kampala, Town</p>
                             <a class="btn btn-sm btn-outline-primary" href="#">
                                 <i class="ai-map-pin me-1"></i>
                                 Get directions
@@ -45,12 +45,12 @@
                             <h4 class="card-title mb-4">Phone</h4>
                             <ul class="list-unstyled mb-0">
                                 <li class="pb-1 mb-2">
-                                    <span class="d-block fs-sm text-body-secondary mb-1">Main office</span>
-                                    <a class="nav-link fs-lg p-0" href="tel:+178632256033">+1&nbsp;(786)&nbsp;322&nbsp;560&nbsp;33</a>
+                                    <span class="d-block fs-sm text-body-secondary mb-1">Call</span>
+                                    <a class="nav-link fs-lg p-0" href="tel:+178632256033">+&nbsp;(256)&nbsp;761&nbsp;738&nbsp;004</a>
                                 </li>
                                 <li>
-                                    <span class="d-block fs-sm text-body-secondary mb-1">Reception room</span>
-                                    <a class="nav-link fs-lg p-0" href="tel:+178630056044">+1&nbsp;(786)&nbsp;300&nbsp;560&nbsp;44</a>
+                                    <span class="d-block fs-sm text-body-secondary mb-1">Whatsapp</span>
+                                    <a class="nav-link fs-lg p-0" href="tel:+178630056044">+&nbsp;(256)&nbsp;708&nbsp;445&nbsp;904</a>
                                 </li>
                             </ul>
                         </div>
@@ -184,7 +184,7 @@
                             <path fill="currentColor" d="M35.6,29c-1.1,3.4-5.4,4.4-7.9,1.9c-2.3-2.2-6.1-3.7-9.4-3.7c-3.1,0-7.5,1.8-10,4.1c-2.2,2-5.8,1.5-7.3-1.1c-1-1.8-1.2-4.1,0-6.2l0.6-1.1l0,0c0.6-0.7,4.4-5.2,12.5-5.7c0.5,1.8,2,3.1,3.9,3.1c2.2,0,4.1-1.9,4.1-4.2s-1.8-4.2-4.1-4.2c-2,0-3.6,1.4-4,3.3H7.7c-0.8,0-1.3-0.9-0.9-1.6l5.6-9.8c2.5-4.5,8.8-4.5,11.3,0L35.1,24C36,25.7,36.1,27.5,35.6,29z"></path>
                         </svg>
                     </span>
-                    <span class="text-nav">Around</span>
+                    <span class="text-nav">Cremah</span>
                 </a>
                 <p class="fs-sm pb-2 pb-lg-3 mb-3">Tellus non diam morbi quam vel venenatis proin sed. Dolor elementum nunc dictum</p>
                 <div class="d-flex gap-3">
@@ -210,8 +210,8 @@
             <div class="col-sm-4 col-lg-2 mb-4 mb-sm-0">
                 <ul class="nav flex-column">
                     <li><a class="nav-link py-1 px-0" href="mailto:contact@example.com">contact@example.com</a></li>
-                    <li><a class="nav-link py-1 px-0" href="tel:+15262200459">+1&nbsp;526&nbsp;220&nbsp;0459</a></li>
-                    <li><a class="nav-link py-1 px-0" href="tel:+15262200444">+1&nbsp;526&nbsp;220&nbsp;0444</a></li>
+                    <li><a class="nav-link py-1 px-0" href="tel:+15262200459">+&nbsp;256&nbsp;708&nbsp;445904</a></li>
+                    <li><a class="nav-link py-1 px-0" href="tel:+15262200444">+&nbsp;256&nbsp;761&nbsp;738004</a></li>
                 </ul>
             </div>
             <div class="col-sm-5 col-lg-4 col-xl-3 offset-lg-1">
@@ -225,7 +225,7 @@
         </div>
         <p class="nav fs-sm mb-0">
             <span class="text-body-secondary">&copy; All rights reserved. Made by</span>
-            <a class="nav-link d-inline fw-normal p-0 ms-1" href="" target="_blank" rel="noopener">Stackbros</a>
+            <a class="nav-link d-inline fw-normal p-0 ms-1" href="" target="_blank" rel="noopener">Shiningstar</a>
         </p>
     </div>
 </footer>

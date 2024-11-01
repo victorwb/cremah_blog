@@ -1,4 +1,4 @@
-@extends('layouts.base', ['title' => 'Around | About - Agency'])
+@extends('layouts.base', ['title' => 'Cremah | About - Agency'])
 
 @section('content')
 
@@ -771,8 +771,8 @@
                     <a class="nav-link px-3 px-lg-4" href="#">Privay policy</a>
                 </div>
                 <div class="nav flex-column mb-3 mb-sm-4">
-                    <a class="nav-link py-1 px-0" href="tel:+15262200444">+&nbsp;1&nbsp;526&nbsp;220&nbsp;0444</a>
-                    <a class="nav-link py-1 px-0" href="tel:+15262200000">+&nbsp;1&nbsp;526&nbsp;220&nbsp;0000</a>
+                    <a class="nav-link py-1 px-0" href="tel:+15262200444">+&nbsp;1&nbsp;256&nbsp;7617&nbsp;38004</a>
+                    <a class="nav-link py-1 px-0" href="tel:+15262200000">+&nbsp;1&nbsp;256&nbsp;7084&nbsp;45904</a>
                 </div>
                 <div class="nav mx-n2 mt-auto">
                     <a class="nav-link py-1 px-2 me-2" href="#">instagram</a>
@@ -784,7 +784,7 @@
         </div>
         <p class="nav fs-sm pt-3 pb-2 pb-lg-0 mb-0">
             <span class="text-body-secondary">&copy; All rights reserved. Made by</span>
-            <a class="nav-link d-inline fw-normal p-0 ms-1" href="" target="_blank" rel="noopener">Stackbros</a>
+            <a class="nav-link d-inline fw-normal p-0 ms-1" href="" target="_blank" rel="noopener">Shiningstar</a>
         </p>
     </div>
 </footer>

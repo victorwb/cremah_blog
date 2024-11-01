@@ -55,7 +55,7 @@
             <!-- Navbar collapse (Main navigation) -->
             <nav class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav navbar-nav-scroll me-auto" style="--ar-scroll-height: 520px;">
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown"> -->
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                            aria-expanded="false">Blog categories</a>
                         <div class="dropdown-menu overflow-hidden p-0">
@@ -230,7 +230,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown"> -->
                     <a class="nav-link" href="{{ route('third', ['pages', 'services', 'services-v1'])}}">Services</a>
                         <ul class="dropdown-menu">
                             <li class="dropdown">
@@ -379,9 +379,8 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                           data-bs-auto-close="outside" aria-expanded="false">About</a>
+                    <!-- <li class="nav-item dropdown"> -->
+                    <a class="nav-link" href="{{ route('third', ['pages', 'about', 'agency'])}}">About</a>
                         <ul class="dropdown-menu">
                             <li class="dropdown">
                                 <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown"
