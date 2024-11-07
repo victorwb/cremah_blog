@@ -17,11 +17,4 @@
 @include('admin.layouts.footer')
       <!-- Footer -->
 
-@extends('admin.layouts.main')
 
-@section('title', 'Home Page') <!-- Set a custom title for this page -->
-
-@section('content')
-    <h1>Welcome to the Home Page</h1>
-    <p>This is the content of the home page.</p>
-@endsection
