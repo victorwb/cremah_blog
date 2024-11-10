@@ -8,7 +8,9 @@
               <div class="card">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                   <h6 class="m-0 font-weight-bold text-primary">Blogs</h6>
+                  <a href="{{ route('blog.create') }}" class="btn btn-sm btn-primary">Create</a>
                 </div>
+               
                 <div class="table-responsive">
                   <table class="table align-items-center table-flush">
                     <thead class="thead-light">
@@ -18,31 +20,29 @@
                         <th>Title</th>
                         <th>Status</th>
                         <th>Action</th>
+                        <th></th>
                       </tr>
                     </thead>
                     <tbody>
+                    @if(count($blogs)>0)
+                      @foreach($blogs as $key=>$blog)
                       <tr>
-                        <td><a href="#">RA0449</a></td>
-                        <td>Udin Wayang</td>
-                        <td>Nasi Padang</td>
-                        <td><span class="badge badge-success">Delivered</span></td>
-                        <td><a href="#" class="btn btn-sm btn-primary">Detail</a></td>
+                        <td><a href="#">{{$key+1}}</a></td>
+                        <td>{{$blog->type}}</td>
+                        <td>{{$blog->title}}</td>
+                        <td><span class="badge badge-success">{{$blog->status}}</span></td>
+                        <td><a href="{{route('blog.edit',[$blog->id])}}" class="btn btn-sm btn-primary">Detail</a></td>
+                        <td>
+                        <form action="{{route('blog.destroy',[$blog->id])}}" method="POST">@csrf
+                          {{method_field('DELETE')}}
+                          
+                          <button type="submit" class="btn btn-danger">Delete</button>
+                        </td>
                       </tr>
-                      <tr>
-                        <td><a href="#">RA5324</a></td>
-                        <td>Jaenab Bajigur</td>
-                        <td>Gundam 90' Edition</td>
-                        <td><span class="badge badge-warning">Shipping</span></td>
-                        <td><a href="#" class="btn btn-sm btn-primary">Detail</a></td>
-                      </tr>
-                      <tr>
-                        <td><a href="#">RA8568</a></td>
-                        <td>Rivat Mahesa</td>
-                        <td>Oblong T-Shirt</td>
-                        <td><span class="badge badge-danger">Pending</span></td>
-                        <td><a href="#" class="btn btn-sm btn-primary">Detail</a></td>
-                      </tr>
-                      
+                      @endforeach  
+                      @else
+                      <td>No blogs yet</td>
+                    @endif                 
                     </tbody>
                   </table>
                 </div>

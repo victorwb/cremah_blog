@@ -5,8 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Blog extends Model
+class BlogDetails extends Model
 {
     use HasFactory;
-    protected $fillable= ['type','title','status'];
+    protected $fillable= ['blog_id','text','image', 'position'];
 }

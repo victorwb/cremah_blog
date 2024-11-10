@@ -62,9 +62,15 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{ route('blog-admin') }}">
+        <a class="nav-link" href="{{ route('blog.index') }}">
           <i class="fas fa-fw fa-palette"></i>
           <span>Blogs</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('blog-details.index') }}">
+          <i class="fas fa-fw fa-palette"></i>
+          <span>Blog Details</span>
         </a>
       </li>
       <hr class="sidebar-divider">

@@ -72,11 +72,11 @@
                     <article class="pb-5 pt-sm-1 mb-lg-3 mb-xl-4">
                     @foreach($blog_details as $blog_detail)
                     @if($blog_detail->blog_id==$blog->id && $blog_detail->position==1 )
-                        <a href="{{ route('third', ['pages', 'blog', 'single-v1'])}}">
+                        <a href="{{ route('blogs.show',[$blog->id])}}">
                             <img class="rounded-5" src="{{Storage::url($blog_detail->image)}}" alt="Image">
                         </a>
                         <h2 class="h3 pt-3 mt-2 mt-md-3">
-                            <a href="{{ route('third', ['pages', 'blog', 'single-v1'])}}">{{$blog->title}}</a>
+                            <a href="{{ route('blogs.show',[$blog->id])}}">{{$blog->title}}</a>
                         </h2>
                         
                         <p>{{Str::limit($blog_detail->text, 180)}}</p>
